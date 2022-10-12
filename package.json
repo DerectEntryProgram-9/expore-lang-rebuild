@@ -1,0 +1,20 @@
+{
+  "name": "expore-lang-rebuild",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon index.js",
+    "arrays": "nodemon arrays.js",
+    "objects": "nodemon objects.js",
+    "objects1": "nodemon objects1.js",
+    "objects2": "nodemon objects2.js",
+    "objects3": "nodemon objects3.js",
+    "objects4": "nodemon objects4.js",
+    "objects5": "nodemon objects5.js",
+    "functions": "nodemon functions.js",
+    "functions2": "nodemon functions2.js",
+    "destructure": "nodemon destructure.js"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
