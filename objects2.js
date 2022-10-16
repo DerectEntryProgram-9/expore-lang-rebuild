@@ -166,16 +166,22 @@ Student.prototype.printDetails = function(){
 Student.prototype.__proto__ = People.prototype;
 
 const s0010 = new Student('S0010', 'Kasun', "IJSE");
-s0010.printDetails();
-console.log(s0010 instanceof Student);
-console.log(s0010 instanceof People);
-console.log(s0010 instanceof Object);
+s0010.printDetails();                       /* S0010 Kasun IJSE */
+console.log(s0010 instanceof Student);      /* true */
+console.log(s0010 instanceof People);       /* true */
+console.log(s0010 instanceof Object);       /* true */
 
 console.log("------------------------------------------------------------");
 
 function myMethod(id, name){
     console.log(this);
-    console.log(id, name);
+                                /*  */
+    console.log(id, name);  
+                                /*  
+                                *   S011 Hiran
+                                *   S011 Kasun
+                                *   S011 Janith 
+                                */
 }
 
 /* 3 method of call values */

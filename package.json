@@ -12,7 +12,9 @@
     "objects5": "nodemon objects5.js",
     "functions": "nodemon functions.js",
     "functions2": "nodemon functions2.js",
-    "destructure": "nodemon destructure.js"
+    "destructure": "nodemon destructure.js",
+    "strings": "nodemon strings.js",
+    "regEx": "nodemon regEx.js"
     },
     "devDependencies": {
       "nodemon": "^2.0.20"

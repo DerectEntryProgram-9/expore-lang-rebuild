@@ -1,5 +1,7 @@
 console.log('Hello Hiran...!');
 
+//---------------------------------------------
+
 console.log('ECMA Script..!', 10 ,"IJSE");
 console.info('ECMA Script..!', 10 ,"IJSE");
 console.error('ECMA Script..!', 10 ,"IJSE");
@@ -76,19 +78,21 @@ console.log(`Non-tagged
 
     /* Tag template expressions */
     console.log('---    Tag template expressions    ---');
+
+    /* taggedFunction is newest method */
     function taggedFunction(strArray, exp1, exp2, exp3) {
         console.log("strArray =", strArray);
-        console.log("exp1 =", exp1);
-        console.log("exp2 =", exp2);
-        console.log("exp3 =", exp3);
+        console.log("exp1 =", exp1);        /* exp1 = is */
+        console.log("exp2 =", exp2);        /* exp2 = tagged */
+        console.log("exp3 =", exp3);        /* exp3 = undefined */
     }
-    taggedFunction`Here ${'is'} a ${'tagged'} string`;
+    taggedFunction`Here ${'is'} a ${'tagged'} string`;  /* String interpolation  */
 
     /* Null and undefined representation */
     console.log('---    Null and undefined representation    ---');
-    console.log(null);
-    console.log(undefined);
-    console.log(Symbol() == Symbol());
+    console.log(null);                  /* null */
+    console.log(undefined);             /* undefined */
+    console.log(Symbol() == Symbol());  /* false */
 
     /* Variables */
     console.log('---    Variables    ---');
